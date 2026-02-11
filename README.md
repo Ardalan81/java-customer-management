@@ -7,7 +7,7 @@ A clean, menu-driven Java console app for managing customer records. It supports
 `java-customer-management`
 
 **How It Works**
-1. The app starts by loading `data/customers.csv` (if it exists).
+1. The app starts by loading `data/customers.csv` .
 2. You choose actions from the menu (add, view, search, edit, delete, sort, report).
 3. Each change is validated and applied to an in-memory list of customers.
 4. You can save at any time, and the app also asks to save on exit.
@@ -27,7 +27,7 @@ A clean, menu-driven Java console app for managing customer records. It supports
 - Confirmation before delete
 
 **Tech**
-- Java (console app)
+- Java 
 - CSV file storage
 
 **Project Structure**
@@ -79,7 +79,7 @@ java-customer-management/
 - `9` Load from file
 - `0` Exit
 
-**Data File Format (CSV)**
+**Data File Format**
 - File path: `data/customers.csv`
 - Header: `id,fullName,phone,email,createdAt`
 - Date format: ISO local date-time (example: `2026-02-10T14:23:11`)

@@ -61,7 +61,12 @@ java-customer-management/
    ```bash
    java -cp out Main
    ```
+-----------------------------------------------------------------------------------------
+**Screenshot**
 
+<img width="2316" height="1086" alt="image" src="https://github.com/user-attachments/assets/bb2004aa-9fb2-4f29-b377-0338e59d0cb1" />
+
+-----------------------------------------------------------------------------------------
 **Usage Guide**
 - `1` Add customer
 - `2` View all customers
@@ -91,8 +96,3 @@ java-customer-management/
 4. Edit a field
 5. Save and exit
 
-**Future Improvements**
-- Pagination for large lists
-- Export to JSON
-- Stronger email validation
-- Better phone formatting
